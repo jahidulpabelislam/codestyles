@@ -169,6 +169,7 @@ module.exports = {
         ],
         "no-useless-call": "error",
         "no-useless-catch": "error",
+        "no-useless-computed-key": "error",
         "no-useless-concat": "error",
         "no-useless-return": "error",
         "no-whitespace-before-property": "error",
