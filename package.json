@@ -1,0 +1,21 @@
+{
+    "name": "@jahidulpabelislam/codestyles",
+    "version": "1.0.0",
+    "description": "Config files around codestyles for myself",
+    "license": "MIT",
+    "author": "Jahidul Pabel Islam <me@jahidulpabelislam.com>",
+    "homepage": "https://github.com/jahidulpabelislam/codestyles/#readme",
+    "bugs": {
+        "url": "https://github.com/jahidulpabelislam/codestyles/issues/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jahidulpabelislam/codestyles.git"
+    },
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-prettier": "^3.1.2",
+        "prettier": "^1.19.1"
+    }
+}
