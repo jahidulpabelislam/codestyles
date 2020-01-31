@@ -18,6 +18,9 @@
         "eslint-plugin-prettier": "^3.1.2",
         "prettier": "^1.19.1"
     },
+    "peerDependencies": {
+        "prettier": ">=1.9.0"
+    },
     "prettier" : "./prettier.config.js",
     "eslintConfig": {
         "extends": "./eslint.node.config.js"
