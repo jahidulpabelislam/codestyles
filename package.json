@@ -23,6 +23,6 @@
     },
     "prettier" : "./prettier.config.js",
     "eslintConfig": {
-        "extends": "./eslint.node.config.js"
+        "extends": "./node.eslint.config.js"
     }
 }
