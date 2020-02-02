@@ -12,7 +12,7 @@
         "type": "git",
         "url": "git+https://github.com/jahidulpabelislam/codestyles.git"
     },
-    "devDependencies": {
+    "dependencies": {
         "eslint": "^5.16.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-prettier": "^3.1.2",
@@ -21,7 +21,7 @@
     "peerDependencies": {
         "prettier": ">=1.9.0"
     },
-    "prettier" : "./prettier.config.js",
+    "prettier": "./prettier.config.js",
     "eslintConfig": {
         "extends": "./node.eslint.config.js"
     }
