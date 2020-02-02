@@ -118,7 +118,16 @@ module.exports = {
         "no-magic-numbers": [
             "error",
             {
-                ignore: [-1, 0, 1],
+                ignore: [
+                    // Used in general
+                    -1,
+                    0,
+                    1,
+                    // Speed values for jQuery
+                    200,
+                    400,
+                    600,
+                ],
                 ignoreArrayIndexes: true,
             },
         ],
