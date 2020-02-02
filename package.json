@@ -8,6 +8,15 @@
     "bugs": {
         "url": "https://github.com/jahidulpabelislam/codestyles/issues/"
     },
+    "keywords": [
+        "javascript",
+        "eslint",
+        "eslint-config",
+        "prettier",
+        "prettier-config",
+        "codestyle",
+        "formatting"
+    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jahidulpabelislam/codestyles.git"
