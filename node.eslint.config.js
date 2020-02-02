@@ -117,7 +117,7 @@ module.exports = {
                 ignoreChainWithDepth: 1,
             },
         ],
-        "no-array-construno-extra-parensctor": "error",
+        "no-array-constructor": "error",
         "no-async-promise-executor": "error",
         "no-await-in-loop": "error",
         "no-bitwise": "error",
