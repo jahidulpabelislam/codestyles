@@ -114,7 +114,7 @@ module.exports = {
         "newline-per-chained-call": [
             "warn",
             {
-                ignoreChainWithDepth: 1,
+                ignoreChainWithDepth: 2,
             },
         ],
         "no-array-constructor": "error",
