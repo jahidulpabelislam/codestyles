@@ -63,7 +63,14 @@ module.exports = {
         "guard-for-in": "error",
         "handle-callback-err": ["error", "error"],
         "implicit-arrow-linebreak": ["error", "beside"],
-        "indent": ["error", 4],
+        "indent": [
+            "error",
+            4,
+            {
+                SwitchCase: 1,
+                MemberExpression: "off",
+            },
+        ],
         "jsx-quotes": ["error", "prefer-double"],
         "key-spacing": [
             "error",

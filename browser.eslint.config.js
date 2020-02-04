@@ -51,7 +51,14 @@ module.exports = {
         "function-paren-newline": "error",
         "guard-for-in": "error",
         "handle-callback-err": ["error", "error"],
-        "indent": ["error", 4],
+        "indent": [
+            "error",
+            4,
+            {
+                SwitchCase: 1,
+                MemberExpression: "off",
+            },
+        ],
         "key-spacing": [
             "error",
             {
