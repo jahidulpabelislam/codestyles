@@ -105,7 +105,7 @@ module.exports = {
         ],
         "no-array-constructor": "error",
         "no-async-promise-executor": "error",
-        "no-await-in-loop": "error",
+        "no-await-in-loop": "warn",
         "no-bitwise": "error",
         "no-console": "off",
         "no-else-return": "error",
@@ -208,7 +208,7 @@ module.exports = {
         "quotes": ["error", "double"],
         "radix": ["error", "always"],
         "require-atomic-updates": "error",
-        "require-await": "error",
+        "require-await": "warn",
         "semi": ["error", "always"],
         "semi-spacing": [
             "error",
