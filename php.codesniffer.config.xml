@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="JPI">
+    <description>The JPI PHP Coding Standard</description>
+    <rule ref="PSR12">
+        <exclude name="Squiz.ControlStructures.ControlSignature" />
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine" />
+        <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction" />
+        <exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNewLine" />
+        <exclude name="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody" />
+        <exclude name="PSR2.ControlStructures.ElseIfDeclaration" />
+        <exclude name="PSR12.Traits.UseDeclaration" />
+    </rule>
+</ruleset>
